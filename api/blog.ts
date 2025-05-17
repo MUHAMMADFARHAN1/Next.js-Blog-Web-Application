@@ -13,7 +13,7 @@ export const fetchArticles = () => {
 
 //function to display fetched products
 export const fetchProducts = async () => {
-  let response = await fetch("http://localhost:3000/");
+  let response = await fetch("http://localhost:3000/articles");
   let data = await response.json();
   return data;
 };

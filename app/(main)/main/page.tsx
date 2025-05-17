@@ -4,7 +4,7 @@ import { fetchArticles, fetchProducts } from "@/api/blog";
 
 export default async function page() {
   // let articles: any = await fetchArticles();
-  let articles: any = await fetchArticles();
+  let articles: any = await fetchProducts();
 
   return (
     <>

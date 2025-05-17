@@ -1,22 +1,22 @@
-[
-  {
-    "id": "1",
-    "title": "a title",
-    "views": 100
-  },
-  {
-    "id": "1",
-    "title": "a title",
-    "views": 100
-  },
-  {
-    "id": "1",
-    "title": "a title",
-    "views": 100
-  },
-  {
-    "id": "1",
-    "title": "a title",
-    "views": 100
-  }
-]
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Article 1",
+      "author": "Author one",
+      "body": "The body 1"
+    },
+    {
+      "id": 2,
+      "title": "Article 2",
+      "author": "Author Two",
+      "body": "The body 2"
+    },
+    {
+      "id": 3,
+      "title": "Article 3",
+      "author": "Author Three",
+      "body": "The body 3"
+    }
+  ]
+}

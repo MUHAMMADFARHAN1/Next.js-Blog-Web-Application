@@ -13,14 +13,14 @@ export const fetchArticles = () => {
 
 //function to display fetched products
 export const fetchProducts = async () => {
-  let response = await fetch("http://localhost:3000/articles");
+  let response = await fetch("http://localhost:3000/main");
   let data = await response.json();
   return data;
 };
 
 //function to fetch via the use of slugs
 export const fetchProductBySlug = async (slug: string) => {
-  let response = await fetch(`http://localhost:3000/articles/${slug}`);
+  let response = await fetch(`http://localhost:3000/main/${slug}`);
   let data = await response.json();
   throw new Error("error");
   //   return data;

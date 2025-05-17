@@ -32,8 +32,7 @@ export default function RootLayout({
         <div className="mx-auto bg-gray-300 ">
           <p className=" text-center">This is the main page</p>
         </div>
-        <h1 className="ml-230">Blog Articles</h1>
-        <div className="flex flex-row gap-5 mx-auto">{children}</div>
+        {children}
       </body>
     </html>
   );

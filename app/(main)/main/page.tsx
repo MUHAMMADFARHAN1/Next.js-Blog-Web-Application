@@ -8,7 +8,6 @@ export default async function page() {
 
   return (
     <>
-      <h1>Blog Articles</h1>
       {articles.map((article: any) => (
         <div>
           <h1>{article.title}</h1>

@@ -13,7 +13,7 @@ export const fetchArticles = () => {
 
 //function to display fetched products
 export const fetchProducts = async () => {
-  let response = await fetch("https://api.escuelajs.co/api/v1/products");
+  let response = await fetch("http://localhost:3000/");
   let data = await response.json();
   return data;
 };

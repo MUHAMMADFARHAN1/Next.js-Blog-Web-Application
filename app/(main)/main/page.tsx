@@ -1,9 +1,11 @@
 import React from "react";
 
-import { fetchArticles } from "@/api/blog";
+import { fetchArticles, fetchProducts } from "@/api/blog";
 
 export default async function page() {
+  // let articles: any = await fetchArticles();
   let articles: any = await fetchArticles();
+
   return (
     <>
       <h1>Blog Articles</h1>

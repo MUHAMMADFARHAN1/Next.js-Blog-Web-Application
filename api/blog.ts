@@ -3,9 +3,9 @@ export const fetchArticles = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve([
-        { id: 1, title: "Article 1" },
-        { id: 2, title: "Article 2" },
-        { id: 3, title: "Article 3" },
+        { id: 1, title: "Article 1", author: "one", body: "The body 1" },
+        { id: 2, title: "Article 2", author: "two", body: "The body 2" },
+        { id: 3, title: "Article 3", author: "three", body: "The body 3" },
       ]);
     }, 2000);
   });

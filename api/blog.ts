@@ -20,9 +20,7 @@ export const fetchProducts = async () => {
 
 //function to fetch via the use of slugs
 export const fetchProductBySlug = async (slug: string) => {
-  let response = await fetch(
-    `https://api.escuelajs.co/api/v1/products/slug/${slug}`
-  );
+  let response = await fetch(`http://localhost:3000/articles/${slug}`);
   let data = await response.json();
   throw new Error("error");
   //   return data;

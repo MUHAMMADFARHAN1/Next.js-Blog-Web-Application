@@ -3,7 +3,7 @@
 import { redirect } from "next/navigation";
 
 export default async function navigate(data: FormData) {
-  redirect(`/main`);
+  redirect(`/blogs`);
 }
 
 // import Image from "next/image";

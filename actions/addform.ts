@@ -7,6 +7,7 @@ export const subscribeFormData = async (formData: any) => {
   console.log(formData.get("title"));
   console.log(formData.get("author"));
   console.log(formData.get("body"));
+  console.log("Hello world");
   await delay(2000);
-  //   return "Subscribed successfully" as any;
+  return "Subscribed successfully" as any;
 };

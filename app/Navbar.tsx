@@ -6,6 +6,7 @@ export default function Nav() {
       <div className="px-10 space-x-6">
         <Link href="/blogs">Home</Link>
         <Link href="/about">About</Link>
+        <Link href="/Add">Create blog</Link>
       </div>
     </nav>
   );
